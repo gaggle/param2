@@ -1,0 +1,15 @@
+{
+  "name": "param2",
+  "version": "0.0.0",
+  "description": "param2 is a small module to read config parameters",
+  "keywords": [
+    "config",
+    "parameters",
+    "env",
+    "args"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Jon Lauridsen <mail@jonlauridsen.com>",
+  "repository": "gaggle/param2"
+}
