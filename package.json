@@ -11,5 +11,20 @@
   "license": "MIT",
   "main": "index.js",
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
-  "repository": "gaggle/param2"
+  "repository": "gaggle/param2",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover --dir ./.coverage _mocha --include-all-sources -- -R spec"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "resolve": "^1.1.6"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "mock-fs": "^3.6.0",
+    "must": "^0.13.1",
+    "rewire": "^2.5.1"
+  }
 }
